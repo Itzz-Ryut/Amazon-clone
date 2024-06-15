@@ -91,6 +91,9 @@
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 
 /* language-box */
 .nav-language {
@@ -127,4 +130,38 @@
     font-size: 0.85rem;
     font-weight: 700;
     /* width: max-content; */
+}
+
+/* nav-cart */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 3%;
+    padding: 11px 5px;
+    margin-left: 11px;
+}
+.panel-opt p {
+    display: inline;
+    margin-left: 9px;
+    padding: 11px 2px;
+}
+.panel-opt{
+    width: auto;
+    font-size: 0.85rem;
 }
