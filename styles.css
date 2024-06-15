@@ -165,3 +165,63 @@
     width: auto;
     font-size: 0.85rem;
 }
+
+/* hero-section */
+.hero-sec{
+    background-image: url(hero_img.jpg);
+    background-size: cover;
+    height: 310px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 10px;
+}
+.h-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin: 20px 20px;
+    width: 100%;
+}
+.h-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+/* shop-boxx */
+.shop-sec{
+    background-color: #d6edfb;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23.2%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.s-nam{
+    font-size: 1.2rem;
+    margin-left: 23px;
+
+}
+.box-img{
+    height: 300px;
+    margin: 22px;
+    padding: 5px;
+
+}
+.s-see{
+    margin-left: 23px;
+    text-decoration: none;
+    color: #007185;
+}
+.s-see a{
+    text-decoration: none;
+    color: #007185;
+}
