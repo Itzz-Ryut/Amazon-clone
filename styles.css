@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url(amazon_logo.png);
+    background-image: url(images/amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -168,7 +168,7 @@
 
 /* hero-section */
 .hero-sec{
-    background-image: url(hero_img.jpg);
+    background-image: url(images/hero_img.jpg);
     background-size: cover;
     height: 310px;
     display: flex;
